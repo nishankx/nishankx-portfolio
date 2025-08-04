@@ -45,12 +45,12 @@
 
 .Nishan-here {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .text1 {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 3.5rem;
     line-height: 2.25rem;
     display: inline-block;
     letter-spacing: -.05em;
