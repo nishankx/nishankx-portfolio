@@ -1,0 +1,72 @@
+#hero {
+    display: flex;
+}
+
+.Nishan {
+    width: 100%;;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-body {
+    gap: 0.5rem;
+    justify-content: space-between;
+    display: flex;
+}
+.pic-main {
+    opacity: 1;
+    filter: blur(0px);
+    will-change: auto;
+    transform: translateY(-6px);
+}
+.pic-sub {
+    border-width: 1px;
+    border-radius: 9999px;
+    overflow :hidden;
+    flex-shrink: 0;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    position: relative;
+}
+.pic {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 /1;
+    max-width: 100%;
+    display: block;;
+}
+
+.hi {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+
+.Nishan-here {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.text1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    display: inline-block;
+    letter-spacing: -.05em;
+    opacity: 1;
+    filter: blur(0px);
+    will-change: auto;
+    transform: translateY(-8px);
+    color: azure;
+}
+
+.text2 {
+    display: inline-block;
+    opacity: 1;
+    filter: blur(0px);
+    will-change: auto;
+    transform: translateY(-8px);
+    max-width: 600px;
+    color: azure;
+}
